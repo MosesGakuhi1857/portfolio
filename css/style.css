@@ -25,6 +25,7 @@ li a:hover{
  .navbar{
      background-color: #536770;
      height: 70px;
+     overflow: visible;
 
  }
  .container1{
@@ -53,4 +54,39 @@ li a:hover{
     padding-top:5px;
     margin-left:-70px;
     overflow: auto;
+}
+
+/*start of sec-2*/
+.container2{
+    display: flex;
+}
+.sec-2{
+    background-color: #DDECF2;
+    width: 100%;
+    height: 70%;
+    overflow: visible;
+}
+.img{
+    overflow: -moz-hidden-unscrollable;
+    display: flex;
+    position: relative;
+    right: 10px;
+    position:-webkit-sticky;
+} 
+
+.content{
+    width:55%;
+    padding:200px;
+    line-height: 1.5;
+    
+}
+#content{
+    background-color: #9FC5D6;
+    padding: 20px;
+    position :relative;
+    right:-150px;
+    top:150px;
+    font-size: 1.3rem;
+    width: auto;
+    font-family: 'lato' sans-serif;
 }
