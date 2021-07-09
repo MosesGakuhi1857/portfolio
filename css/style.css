@@ -2,9 +2,9 @@
 
  
 :root{
-    --primary-color: #9FC5D6;
+    --primary-color: #DDECF2;
     --secondary-color: #536770;
-    --bg-color: #DDECF2;
+    --bg-color:  #9FC5D6 ;
 }
 *{
     box-sizing: border-box;
@@ -194,12 +194,12 @@ footer{
     box-sizing: border-box;
     padding: 5px;
     background-color: #262626;
-    border:1px solid#0fffb7;
+    border:1px solid var(--bg-color);
     border-radius: 3px;
     margin: 0 0 10px 0;
 }
 .skill-level{
-    background-color: #0fffb7;
+    background-color:var(--bg-color);
     height:10px;
     width: 100%;
 }
