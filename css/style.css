@@ -4,6 +4,7 @@
 :root{
     --primary-color: #9FC5D6;
     --secondary-color: #536770;
+    --bg-color: #DDECF2;
 }
 *{
     box-sizing: border-box;
@@ -133,4 +134,28 @@ footer{
     text-align: center;
     
 
+}
+
+/*styling about */
+.sec-2-about{
+    background-color: var(--bg-color);
+}
+.about{
+    background-color: var(--primary-color);
+    padding: 80px;
+    width: 55%;
+    height: 50%;
+    position: relative;
+    top: 90px;
+    left:20px;
+    font-size: 1.3rem;
+    font-family: 'lato' sans-serif;
+    line-height: 2.5rem;
+}
+.img2{
+    overflow: -moz-hidden-unscrollable;
+    display: flex;
+    position: relative;
+    right: -20px;
+    position:-webkit-sticky;
 }
