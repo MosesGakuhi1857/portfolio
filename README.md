@@ -1,6 +1,6 @@
 ## ` My PORTFOLIO ` 
 
-## **Author** 
+## Author: **Moses King'ori**
 ![MOSES KINGS](./assets/moses.2.jpg "MOSES KINGS")
 
 ## PROJECT DESCRIPTION
@@ -18,13 +18,13 @@
  ```
 LINK
 
-[Visit live site on Github]()
+[Click to Visit live site on Github]()
 
 ### **lincence**
 
 Developer: Moses Kings
 
-copyright  &copy;  [MIT](https://choosealicense.com/licenses/mit/)
+copyright  &copy;2021  [MIT](https://choosealicense.com/licenses/mit/)
 
 
 
