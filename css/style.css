@@ -166,14 +166,14 @@ footer{
 
 .graph{
     position:absolute;
-    width:50%;
+    width:40%;
     top:50%;
     left:20%;
    transform:translate(-20%,-20%);
    padding:20px;
    background-color: #333;
    box-sizing: border-box;
-   box-shadow: 0 20px 50px rgba(0,0,0.5);
+   
 
 }
 .skillbox p{
@@ -203,13 +203,28 @@ footer{
     height:10px;
     width: 100%;
 }
-h1{
+.graph h1{
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 700;
     text-indent: 2px;
     text-align: center;
     color:#fff;
+}
+
+.img3{
+    overflow: -moz-hidden-unscrollable;
+    display: flex;
+    position: relative;
+    left: 850px;
+    position:-webkit-sticky;
+}
+
+#graph{
+    background-color: var(--primary-color);
+}
+.sec-2-skill{
+    background-color: var(--bg-color);
 }
 
 /*end of styling skillset */
