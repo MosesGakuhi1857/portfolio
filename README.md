@@ -1,7 +1,7 @@
 ## ` My PORTFOLIO ` 
 
 ## Author: **Moses King'ori**
-![MOSES KINGS](./assets/moses.2.jpg "MOSES KINGS")
+![MOSES KINGS](./assets/moses.2.jpg  "MOSES KINGS" )
 
 ## PROJECT DESCRIPTION
 
@@ -9,18 +9,18 @@
 
 ### Project Setup
 ```
- - <!DOCTYPE html>
-   <html lang="en">
+ - :root{
+    --primary-color: #DDECF2;
+    --secondary-color: #536770;
+    --bg-color:  #9FC5D6 ;
+}
 
-    </html>
-
- - CSS
  ```
 LINK
 
 [Click to Visit live site on Github]()
 
-### **lincence**
+### **licence**
 
 Developer: Moses Kings
 
