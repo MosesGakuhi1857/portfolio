@@ -306,3 +306,49 @@ font-size: 20px;
 .btn-primary:hover{
     transform:scale(0.85);
 }
+/*end of style*/
+
+
+/*end of style*/
+.project{
+    display: flex;
+    position: relative;
+    left: 50px;
+    padding: 20px;
+}
+.desc{
+    width: 45%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    left:100px;
+}
+.desc:nth-child(2){
+    width: 35%;
+    
+}
+.img5{
+    overflow: -moz-hidden-unscrollable;
+    display: flex;
+    position: relative;
+    top:150px;
+    right: 20px;
+    position:-webkit-sticky;
+}
+.projo{
+    background-color: var(--primary-color);
+    margin-right: 700px;
+    margin: 40px;
+}
+#pic1{
+    position: relative;
+    top:50px;
+    left:100px;
+    transition:30s;
+
+}
+.sec-2-project{
+    background-color: var(--bg-color);
+}
