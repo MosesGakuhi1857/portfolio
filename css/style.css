@@ -76,17 +76,22 @@ li a:hover{
     display: flex;
 }
 .sec-2{
-    background-color: #DDECF2;
+    background-color:rgb(219, 211, 211);
     width: 100%;
     height: 70%;
     overflow: visible;
 }
 .img{
-    overflow: -moz-hidden-unscrollable;
+    
     display: flex;
     position: relative;
     right: 10px;
-    position:-webkit-sticky;
+    background-color:rgb(219, 211, 211);
+    border-radius: 50%;
+    border-style: dotted;
+    box-shadow: 15px 15px 5px rgba(219, 211, 211,0.7);
+    border:10px #fff;
+    
 } 
 
 .content{
@@ -96,7 +101,7 @@ li a:hover{
     
 }
 #content{
-    background-color:var(--primary-color);
+    background-color:#333;
     padding: 20px;
     position :relative;
     right:-150px;
@@ -104,15 +109,23 @@ li a:hover{
     font-size: 1.7rem;
     width: auto;
     font-family: 'lato' sans-serif;
+    box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
+    border:10px #fff;
+    border-radius: 4%;
+    color:#fff;
 }
 .myname{
-    background-color: var(--primary-color);
+    background-color:#333;
     text-align: center;
     position: relative;
     top: 120px;
     right: -70px;
     font-size:1.9rem;
-    width: 50%;
+    width: 60%;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
+    border:2px #fff;
 }
 
 /*END OF SECTION TWO*/
@@ -147,27 +160,33 @@ footer{
 
 /*styling about */
 .sec-2-about{
-    background-color: var(--bg-color);
+    background-image:url(/assets/tech.4.jpeg);
+    height: 100vh;
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
 .about{
-    background-color: var(--primary-color);
+    background-color: #333;
     padding: 80px;
     width: 55%;
-    height: 50%;
-    position: relative;
-    top: 90px;
-    left:20px;
+    height: 85%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform:translate(50% 50%);
     font-size: 1.5rem;
     font-family: 'lato' sans-serif;
-    line-height: 2.5rem;
+    line-height: 3rem;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
+    border:2px #fff;
+    border-radius: 4%;
+    
+
 }
-.img2{
-    overflow: -moz-hidden-unscrollable;
-    display: flex;
-    position: relative;
-    right: -20px;
-    position:-webkit-sticky;
-}
+
 /*end of styling sec about*/
 
 /*styling skillset */
@@ -176,12 +195,14 @@ footer{
 .graph{
     position:absolute;
     width:40%;
-    top:50%;
-    left:20%;
-   transform:translate(-20%,-20%);
+    top:20%; 
+   transform:translate(70%,50%);
    padding:20px;
    background-color: #333;
    box-sizing: border-box;
+   box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
+   border:2px #fff;
+   border-radius: 4%;
    
 
 }
@@ -233,7 +254,12 @@ footer{
     background-color: var(--bg-color);
 }
 .sec-2-skill{
-    background-color: var(--bg-color);
+    background-image: url('/assets/tech.4.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+
 }
 
 /*end of styling skillset */
@@ -241,24 +267,28 @@ footer{
 /*start of styling contact */
 .contact-elements{
     display: grid;
-    grid-template-columns:2fr 3fr;
-    background-color: var(--primary-color);
+    grid-template-columns:3fr 3fr;
+    background-color:#333 ;
     gap:30px;
     padding:5px 10px;
     height: 350px;
-    position: relative;
-    left: 100px;
-    top: 200px;
+    position:absolute;
+    width:53%;
+    top:20%;
+   transform:translate(50%,50%);
     justify-content: center;
     align-items: center;
-
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
+    border:2px #fff;
+    border-radius: 4%;
     
 }
 form{
     width:480px;
     height: 280px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
    font-size: 1.5rem;
     background-color: #fff;
     box-shadow:5px 5px rgba(0,0,0,0.3),-5px -5px rgba(0,0,0,0.3);
@@ -267,17 +297,22 @@ form{
     height: 150px;
     line-height: 3rem;
     font-size: 1.5rem;
-    padding: 0 20px;
+    padding: 0 30px;
 }
-.img-contact{
+/*.img-contact{
     position:relative;
     left:300px;
-}
+}*/
+
 .sec-2-contact{
-    background-color: var(--bg-color);
+ background-image: url('/assets/tech.4.jpeg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+ opacity: 0.9;
 }
 .form{
-    margin:20px 0;
+    margin:20px 10px;
     justify-content: center;
     text-align: center;
 }
@@ -310,63 +345,59 @@ font-size: 20px;
 /*end of style*/
 
 
-/*end of style*/
+/*start of styling project*/
 .project{
-    display: flex;
-    position: relative;
-    left: 50px;
-    padding: 50px;
-    margin:30px;
-    border-bottom-style:ridge; 
+    padding: 80px;
+    margin:15px; 
+    background-color: #333;
+     align-content: center;
+     box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
+     border:2px #fff;
+     border-radius: 4%;
+
+    
 
 }
 .desc{
-    width: 55%;
-    height: 70%;
+    width: 65%;
     text-align: center;
-    justify-content: center;
-    padding: 50px;
+    color: #fff;
     position: relative;
-    left:100px;
-    
+    left:50px;
+    padding: 30px 0;
+
 }
-.desc:nth-child(2){
-    width: 55%;
-   
-    
-}
-.img5{
+/*.img5{
     overflow: -moz-hidden-unscrollable;
     display: flex;
     position: relative;
     top:150px;
     right: 20px;
-    position:-webkit-sticky;
-}
+    position:-webkit-sticky;}*/
+
 .projo{
-    background-color: var(--primary-color);
-    margin-right: 700px;
-    margin: 40px;
-    padding:50px ;
-}
-#pic1{
-    position: relative;
-    top:50px;
-    left:100px;
-    transition:30s;
+    
+    padding:80px;
+    position: absolute;
+    transform: translate(0% 20%);
+    top: 5%;
+    right: 0.5px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
 
 }
 .sec-2-project{
-    background-color: var(--bg-color);
+    background-image:url(/assets/tech.4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 100vh;
 }
 
-#pic2{
-    position:relative;
-    left:150px;
-}
 .desc p{
     font-size: 1.4rem;
-    line-height: 1.9rem;
+    line-height: 2.5rem;
 }
 button{
     padding: 10px;
@@ -379,9 +410,17 @@ button{
 button:hover{
     transform:scale(0.85);
 }
-.projo h2{
-    font-size: 3rem;
-    text-align: center;
+.container2 h3{
+    font-size: 2rem;
+   position: relative;
+    left:800px;
+    top: 20px;
     text-decoration:underline;
+    color: #fff;
   
+}
+.container2 h2{
+    text-decoration:underline;
+    font-size: 2rem;
+    text-align: center;
 }
