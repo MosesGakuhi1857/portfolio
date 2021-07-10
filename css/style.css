@@ -232,12 +232,13 @@ footer{
 /*start of styling contact */
 .contact-elements{
     display: grid;
-    grid-template-columns:2fr 1fr;
+    grid-template-columns:2fr 2fr;
     background-color: var(--primary-color);
+    gap:30px;
     padding: 50px;
     height: 350px;
     position: relative;
-    left: 350px;
+    left: 200px;
     top: 200px;
 
     
@@ -247,10 +248,12 @@ form{
 }
 .details{
     height: 150px;
+    line-height: 3rem;
+    font-size: 1.5rem;
 }
 .img-contact{
     position:relative;
-    left:500px;
+    left:300px;
 }
 .sec-2-contact{
     background-color: var(--bg-color);
