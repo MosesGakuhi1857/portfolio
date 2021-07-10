@@ -29,6 +29,11 @@ body{
 li a:hover{
      border-bottom:4px blue solid;
      border-top: 4px blue solid;
+    
+ }
+ .navlink:hover{
+     transform: scale(3);
+
  }
  .navbar{
      background-color: var(--secondary-color);
@@ -114,6 +119,8 @@ li a:hover{
 footer{
     background-color: var(--secondary-color);
     height: 35%;
+    padding:20px;
+    margin:0;
 }
 
  .footer-icons ul li {
@@ -283,7 +290,7 @@ font-size: 20px;
 
 .form input:focus{
     outline: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 .btn{
     display:inline-block;
@@ -293,4 +300,8 @@ font-size: 20px;
     border-radius: 10px;
     background-color: var(--secondary-color);
     color: #fff;
+    font-size:1.3rem;
+}
+.btn-primary:hover{
+    transform:scale(0.98);
 }
