@@ -314,19 +314,24 @@ font-size: 20px;
     display: flex;
     position: relative;
     left: 50px;
-    padding: 20px;
+    padding: 50px;
+    margin:30px;
+    border-bottom-style:ridge; 
+;
 }
 .desc{
-    width: 45%;
-    height: 50%;
+    width: 35%;
+    height: 30%;
     text-align: center;
     justify-content: center;
     padding: 50px;
     position: relative;
     left:100px;
+    
 }
 .desc:nth-child(2){
     width: 35%;
+   
     
 }
 .img5{
@@ -341,6 +346,7 @@ font-size: 20px;
     background-color: var(--primary-color);
     margin-right: 700px;
     margin: 40px;
+    padding:50px ;
 }
 #pic1{
     position: relative;
@@ -351,4 +357,12 @@ font-size: 20px;
 }
 .sec-2-project{
     background-color: var(--bg-color);
+}
+
+#pic2{
+    position:relative;
+    left:150px;
+}
+.desc p{
+    font-size: 1.3rem;
 }
