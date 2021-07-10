@@ -10,6 +10,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   /* border: 3px lawngreen dashed;*/
 }
 
 body{
@@ -246,7 +247,7 @@ footer{
     padding:5px 10px;
     height: 350px;
     position: relative;
-    left: 200px;
+    left: 100px;
     top: 200px;
     justify-content: center;
     align-items: center;
@@ -317,11 +318,11 @@ font-size: 20px;
     padding: 50px;
     margin:30px;
     border-bottom-style:ridge; 
-;
+
 }
 .desc{
-    width: 35%;
-    height: 30%;
+    width: 55%;
+    height: 70%;
     text-align: center;
     justify-content: center;
     padding: 50px;
@@ -330,7 +331,7 @@ font-size: 20px;
     
 }
 .desc:nth-child(2){
-    width: 35%;
+    width: 55%;
    
     
 }
@@ -372,6 +373,8 @@ button{
     background-color: darkslategray;
     font-size: 1.7rem;
     margin: 5px;
+    border-radius: 30%;
+    border:none;
 }
 button:hover{
     transform:scale(0.85);
@@ -380,4 +383,5 @@ button:hover{
     font-size: 3rem;
     text-align: center;
     text-decoration:underline;
+  
 }
