@@ -216,15 +216,42 @@ footer{
     overflow: -moz-hidden-unscrollable;
     display: flex;
     position: relative;
-    left: 850px;
+    left: 1000px;
     position:-webkit-sticky;
 }
 
 #graph{
-    background-color: var(--primary-color);
+    background-color: var(--bg-color);
 }
 .sec-2-skill{
     background-color: var(--bg-color);
 }
 
 /*end of styling skillset */
+
+/*start of styling contact */
+.contact-elements{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    background-color: var(--primary-color);
+    padding: 50px;
+    height: 350px;
+    position: relative;
+    left: 350px;
+    top: 200px;
+
+    
+}
+form{
+    height: 150px;
+}
+.details{
+    height: 150px;
+}
+.img-contact{
+    position:relative;
+    left:500px;
+}
+.sec-2-contact{
+    background-color: var(--bg-color);
+}
