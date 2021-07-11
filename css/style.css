@@ -80,12 +80,15 @@ li a:hover{
     position: relative;
     right: -250px;
     top:18px;
-    background-color:rgb(219, 211, 211);
+    background-color:var(--primary-color);
     border-radius: 50%;
-    box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
+    box-shadow: 10px 10px 5px rgba(14, 13, 13, 0.7);
     border:4px #fff;
     
 } 
+.img:hover{
+    box-shadow: 5px 5px 5px #aaa;
+}
 
 .content{
     width:35%;
@@ -98,7 +101,7 @@ li a:hover{
     padding: 20px;
     position :relative;
     right:-150px;
-    top:70px;
+    top:90px;
     font-size: 1.7rem;
     width: auto;
     font-family: 'lato' sans-serif;
@@ -108,12 +111,16 @@ li a:hover{
     color:#fff;
     box-sizing: border-box;
 }
+#content:hover{
+    box-shadow: 5px 5px 5px #aaa;
+}
+
 .myname{
     padding: 10px;
     background-color:#333;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 70px;
     right: -70px;
     font-size:30px;
     border-radius: 2px;
@@ -123,6 +130,10 @@ li a:hover{
     border-radius: 4%;
     box-sizing: border-box;
 }
+.myname:hover{
+    box-shadow: 5px 5px 5px #aaa;
+} 
+
 
 /*END OF SECTION TWO*/
 
@@ -151,12 +162,15 @@ footer{
     font-size: 1.5rem;
     text-align: center;
     
-
+}
+.fab:hover{
+transform: scale(0.95);
+color: blue;
 }
 
 /*styling about */
 .sec-2-about{
-    background-image:url(/assets/tech.4.jpg);
+    background-image:url(../assets/tech.4.jpg);
     height: 100vh;
     opacity: 0.9;
     background-size: cover;
@@ -181,10 +195,10 @@ footer{
     border:2px #fff;
     border-radius: 4%;
     box-sizing: border-box;
-    
-
 }
-
+.about:hover{
+box-shadow: 5px 5px 5px #aaa;
+}
 /*end of styling sec about*/
 
 /*styling skillset */
@@ -205,7 +219,7 @@ footer{
 
 }
 .graph:hover{
-    box-shadow: 5rem 5rem 7rem #aaa;
+    box-shadow: 5px 5px 5px #aaa;
 
 }
 .skillbox p{
@@ -252,7 +266,7 @@ footer{
     position:-webkit-sticky;
 }*/
 .sec-2-skill{
-    background-image: url(/assets/tech.4.jpg);
+    background-image: url(../assets/tech.4.jpeg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +324,7 @@ form{
 }*/
 
 .sec-2-contact{
- background-image:url(/assets/tech.3.jpg);
+ background-image:url(../assets/tech.4.jpeg);
  background-repeat: no-repeat;
  background-size: cover;
  height: 100vh;
@@ -318,7 +332,7 @@ form{
 
 }
 .contact-elements:hover{
-    box-shadow: 5rem 5rem 7rem #aaa;
+    box-shadow: 15px 15px 10px #aaa;
 }
 .form{
     margin:20px 10px;
@@ -369,7 +383,7 @@ font-size: 20px;
 
 }
 .project:hover{
-    box-shadow: 2rem 2rem 7rem #aaa;
+    box-shadow: 5px 5px 5px #aaa;
 }
 
 #pic1{
@@ -406,7 +420,7 @@ font-size: 20px;
 
 }
 .sec-2-project{
-    background-image:url(/assets/tech.4.jpg);
+    background-image:url(../assets/tech.4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
@@ -429,9 +443,9 @@ button:hover{
     transform:scale(0.85);
 }
 .container2 h3{
-    font-size: 2rem;
+    font-size: 3rem;
    position: relative;
-    left:800px;
+    left:700px;
     top: 20px;
     text-decoration:underline;
     color: #fff;
