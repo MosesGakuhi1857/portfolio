@@ -18,9 +18,16 @@
  ```
 LINK
 
-[Click to Visit live site on Github]()
+[Click to Visit live site on Github](https://mosesgakuhi1857.github.io/portfolio/)
 
+
+![MOSES KINGS](./assets/home.png  "MOSES KINGS" )
+![MOSES KINGS](./assets/aboutme.png  "MOSES KINGS" )
+![MOSES KINGS](./assets/skill.png  "MOSES KINGS" )
+![MOSES KINGS](./assets/projects.png  "MOSES KINGS" )
+![MOSES KINGS](./assets/contact-02.png  "MOSES KINGS" )
 ### **licence**
+
 
 Developer: Moses Kings
 
