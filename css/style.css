@@ -86,11 +86,11 @@ li a:hover{
     display: flex;
     position: relative;
     right: 10px;
+    top:18px;
     background-color:rgb(219, 211, 211);
     border-radius: 50%;
-    border-style: dotted;
-    box-shadow: 15px 15px 5px rgba(219, 211, 211,0.7);
-    border:10px #fff;
+    box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
+    border:4px #fff;
     
 } 
 
@@ -120,7 +120,7 @@ li a:hover{
     position: relative;
     top: 120px;
     right: -70px;
-    font-size:1.9rem;
+    font-size:30px;
     width: 60%;
     border-radius: 2px;
     color: #fff;
@@ -168,17 +168,18 @@ footer{
    
 }
 .about{
+    margin: 10px;
     background-color: #333;
-    padding: 80px;
+    padding: 30px;
     width: 55%;
-    height: 85%;
+    height: 90%;
     position: absolute;
     top: 15%;
     left: 20%;
     transform:translate(50% 50%);
     font-size: 1.5rem;
     font-family: 'lato' sans-serif;
-    line-height: 3rem;
+    line-height: 2.5rem;
     color: #fff;
     box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
     border:2px #fff;
@@ -196,7 +197,7 @@ footer{
     position:absolute;
     width:40%;
     top:20%; 
-   transform:translate(70%,50%);
+   transform:translate(70%,30%);
    padding:20px;
    background-color: #333;
    box-sizing: border-box;
@@ -242,13 +243,13 @@ footer{
     color:#fff;
 }
 
-.img3{
+/*.img3{
     overflow: -moz-hidden-unscrollable;
     display: flex;
     position: relative;
     left: 1000px;
     position:-webkit-sticky;
-}
+}*/
 
 #graph{
     background-color: var(--bg-color);
@@ -267,7 +268,7 @@ footer{
 /*start of styling contact */
 .contact-elements{
     display: grid;
-    grid-template-columns:3fr 3fr;
+    grid-template-columns:2fr 2fr;
     background-color:#333 ;
     gap:30px;
     padding:5px 10px;
@@ -275,7 +276,7 @@ footer{
     position:absolute;
     width:53%;
     top:20%;
-   transform:translate(50%,50%);
+   transform:translate(50%,40%);
     justify-content: center;
     align-items: center;
     color: #fff;
@@ -285,7 +286,7 @@ footer{
     
 }
 form{
-    width:480px;
+    width:400px;
     height: 280px;
     border-radius: 20px;
     padding: 30px;
@@ -294,10 +295,11 @@ form{
     box-shadow:5px 5px rgba(0,0,0,0.3),-5px -5px rgba(0,0,0,0.3);
 }
 .details{
-    height: 150px;
+    height: 250px;
+    width:350px;
     line-height: 3rem;
     font-size: 1.5rem;
-    padding: 0 30px;
+    padding:20px;
 }
 /*.img-contact{
     position:relative;
@@ -349,22 +351,25 @@ font-size: 20px;
 .project{
     padding: 80px;
     margin:15px; 
+    height:580px;
+    width: 400px;
     background-color: #333;
      align-content: center;
      box-shadow: 10px 10px 5px rgba(219, 211, 211,0.7);
      border:2px #fff;
      border-radius: 4%;
-
-    
-
 }
+#pic1{
+    position: relative;
+    left:-30px;
+}
+
 .desc{
-    width: 65%;
-    text-align: center;
+
     color: #fff;
     position: relative;
-    left:50px;
-    padding: 30px 0;
+    left:-50px;
+    padding: 20px 0;
 
 }
 /*.img5{
@@ -376,12 +381,12 @@ font-size: 20px;
     position:-webkit-sticky;}*/
 
 .projo{
+    height:90%;
     
-    padding:80px;
     position: absolute;
     transform: translate(0% 20%);
-    top: 5%;
-    right: 0.5px;
+    top: 18%;
+    left: 10%;
     display: flex;
     align-content: center;
     justify-content:center;
@@ -396,13 +401,13 @@ font-size: 20px;
 }
 
 .desc p{
-    font-size: 1.4rem;
-    line-height: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 button{
     padding: 10px;
     background-color: darkslategray;
-    font-size: 1.7rem;
+    font-size: 1rem;
     margin: 5px;
     border-radius: 30%;
     border:none;
