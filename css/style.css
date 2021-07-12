@@ -23,14 +23,15 @@ body{
      list-style-type: none;
  }
   
- a{  font-family: Georgia, 'Times New Roman', Times, serif;
+ .navigation a{  font-family: Georgia, 'Times New Roman', Times, serif;
      text-decoration: none;
      color:white;
+
  }
 li a:hover{
      border-bottom:4px blue solid;
      border-top: 4px blue solid;
-    
+     color: #fff;
  }
  .navlink:hover{
      transform: scale(3);
@@ -54,15 +55,15 @@ li a:hover{
  .navigation ul{
      display: flex;
      justify-content: space-around;
-     padding-top: 10px;
+     padding-top:-10px;
 }
 .navigation ul li{
-    padding: 18px;
+    padding: 15px;
     margin:0 5px;
 }
 .navigation{
     margin-right: -100px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .logo{
     padding-top:5px;
@@ -208,7 +209,7 @@ box-shadow: 5px 5px 5px #aaa;
     position:absolute;
     width:40%;
     top:20%; 
-   transform:translate(70%,30%);
+   transform:translate(80%,30%);
    padding:20px;
    background-color: #333;
    box-sizing: border-box;
@@ -287,7 +288,7 @@ box-shadow: 5px 5px 5px #aaa;
     position:absolute;
     width:55%;
     top:20%;
-   transform:translate(40%,40%);
+   transform:translate(25%,40%);
     justify-content: center;
     align-items: center;
     color: #fff;
@@ -420,7 +421,7 @@ font-size: 20px;
 
 }
 .sec-2-project{
-    background-image:url(../assets/tech.4.jpg);
+    background-image:url(../assets/tech.4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
@@ -438,6 +439,11 @@ button{
     margin: 5px;
     border-radius: 30%;
     border:none;
+  
+}
+button a{
+    color: #fff;
+    text-decoration: none;
 }
 button:hover{
     transform:scale(0.85);
@@ -456,3 +462,10 @@ button:hover{
     font-size: 2rem;
     text-align: center;
 }
+
+
+
+@media screen and (max-width:1400px){
+
+}
+    
